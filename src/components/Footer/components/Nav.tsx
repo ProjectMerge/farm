@@ -8,7 +8,7 @@ const Nav: React.FC = () => {
         target="_blank"
         href="#"
       >
-        JuiceMaster Contract
+        Farming Contract
       </StyledLink>
       {/*<StyledLink
         target="_blank"
@@ -16,16 +16,16 @@ const Nav: React.FC = () => {
       >
         SushiSwap SUSHI-ETH
       </StyledLink> */}
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="http://discord.projectmerge.org">
         Discord
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="https://github.com/ProjectMerge">
         Github
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="http://twitter.projectmerge.org/">
         Twitter
       </StyledLink>
-      <StyledLink target="_blank" href="#">
+      <StyledLink target="_blank" href="http://medium.projectmerge.org/">
         Medium
       </StyledLink>
     </StyledNav>

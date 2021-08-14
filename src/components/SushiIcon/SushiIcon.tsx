@@ -1,4 +1,5 @@
 import React from 'react'
+const m_icon = require('../../assets/img/m-icon.png')
 
 interface SushiIconProps {
   size?: number
@@ -16,7 +17,7 @@ const SushiIcon: React.FC<SushiIconProps> = ({ size = 36, v1, v2, v3 }) => (
     }}
   >
     
-🤝
+<img alt='logo' style={{ width: 70 }} src={m_icon} />
   </span>
 )
 

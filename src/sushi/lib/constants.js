@@ -489,7 +489,7 @@ export const supportedPools = [
     name: 'Merge Farming',
     symbol: 'BUSD-BNB LP',
     tokenSymbol: 'BUSD',
-    icon: '🤝',
+    icon: '🦍',
   },
 ]
 

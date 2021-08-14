@@ -13,6 +13,8 @@ import { getContract } from '../../utils/erc20'
 import Harvest from './components/Harvest'
 import Stake from './components/Stake'
 
+const logo = require('../../assets/img/farm_logo.png')
+
 const Farm: React.FC = () => {
   const { farmId } = useParams()
   const {
@@ -57,7 +59,7 @@ const Farm: React.FC = () => {
   return (
     <>
       <PageHeader
-        icon={icon}
+        icon={<img alt='logo' style={{ width: 120 }} src={logo} />}
         subtitle={`Deposit ${lpTokenName}  Tokens and earn ${earnTokenName}`}
         title={name}
       />

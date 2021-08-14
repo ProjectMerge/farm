@@ -18,6 +18,8 @@ import useSushi from '../../../hooks/useSushi'
 import { getEarned, getMasterChefContract } from '../../../sushi/utils'
 import { bnToDec } from '../../../utils'
 
+const m_icon = require('../../../assets/img/m-icon.png')
+
 interface FarmWithStakedValue extends Farm, StakedValue {
   apy: BigNumber
 }
@@ -134,7 +136,7 @@ const FarmCard: React.FC<FarmCardProps> = ({ farm }) => {
       <Card>
         <CardContent>
           <StyledContent>
-            <CardIcon>{farm.icon}</CardIcon>
+            <CardIcon><img alt='logo' style={{ width: 70 }} src={m_icon} /></CardIcon>  {/*{farm.icon}*/}
             <StyledTitle>{farm.name}</StyledTitle>
             <StyledDetails>
               <StyledDetail>Deposit {farm.lpToken}</StyledDetail>

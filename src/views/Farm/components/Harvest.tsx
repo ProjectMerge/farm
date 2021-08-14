@@ -9,6 +9,7 @@ import Value from '../../../components/Value'
 import useEarnings from '../../../hooks/useEarnings'
 import useReward from '../../../hooks/useReward'
 import { getBalanceNumber } from '../../../utils/formatBalance'
+const m_icon = require('../../../assets/img/m-icon.png')
 
 interface HarvestProps {
   pid: number
@@ -24,8 +25,10 @@ const Harvest: React.FC<HarvestProps> = ({ pid }) => {
       <CardContent>
         <StyledCardContentInner>
           <StyledCardHeader>
-            <CardIcon>
-🤝</CardIcon>
+            
+            <CardIcon><img alt='logo' style={{ width: 70 }} src={m_icon} /></CardIcon>
+            
+
             <Value value={getBalanceNumber(earnings)} />
             <Label text="MERGE Earned" />
           </StyledCardHeader>
