@@ -465,7 +465,7 @@ export const contractAddresses = {
     97: '0x17330FF7984975c6812Ea13C762fbE258Cb66c55',
   },
   masterChef: {
-    97: '0xAe28ff8332eFf5C933e397858D9EdB13D59a1d65',
+    97: '0x79dEF4E5F9fdDc74F61c2EF68aA8BB207AeB70de',
   },
   weth: {
     97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
@@ -481,14 +481,14 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      97: '0xe0e92035077c39594793e61802a350347c320cf2', // LP Token Address
+      97: '0x5a7651da5a99e6277cab3421a2fc62a6761797a5', // LP Token Address
     },
     tokenAddresses: {
-      97: '0x78867bbeef44f2326bf8ddd1941a4439382ef2a7', // Token, i.e. "BUSD"
+      97: '0x17330ff7984975c6812ea13c762fbe258cb66c55', // Token, i.e. "BUSD"
     },
     name: 'Merge Farming',
-    symbol: 'BUSD-BNB LP',
-    tokenSymbol: 'BUSD',
+    symbol: 'MERGE-BNB LP',
+    tokenSymbol: 'MERGE',
     icon: '🦍',
   },
 ]

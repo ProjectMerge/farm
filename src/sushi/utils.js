@@ -225,3 +225,7 @@ export const leave = async (contract, amount, account) => {
         return tx.transactionHash
       })
 }
+
+export const getMergePerBlock = async (masterChefContract) => {
+  return new BigNumber(await masterChefContract.methods.mergePerBlock().call())
+}
