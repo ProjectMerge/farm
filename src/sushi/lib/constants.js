@@ -458,20 +458,20 @@ SLP Address on mainnet for reference
 
 // Project Merge SETTINGS
 
-export const CHAIN_ID = 97
+export const CHAIN_ID = 56
 
 export const contractAddresses = {
   sushi: {
-    97: '0x17330FF7984975c6812Ea13C762fbE258Cb66c55',
+    56: '0x2d5c9167fdd5c068c8fcb8992e6af639b42fbf70',
   },
   masterChef: {
-    97: '0x79dEF4E5F9fdDc74F61c2EF68aA8BB207AeB70de',
+    56: '0x5169FD709827F766080ac38d20624Ff705AFDD29',
   },
   weth: {
-    97: '0xae13d989dac2f0debff460ac112a837c89baa7cd',
+    56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
   },
   xSushi: {
-    97: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
+    56: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
   }
 }
 
@@ -481,10 +481,10 @@ export const supportedPools = [
   {
     pid: 0,
     lpAddresses: {
-      97: '0x5a7651da5a99e6277cab3421a2fc62a6761797a5', // LP Token Address
+      56: '0xc669f6f4305dc0959cd136ec2a4e0f68797f3b1a', // LP Token Address
     },
     tokenAddresses: {
-      97: '0x17330ff7984975c6812ea13c762fbe258cb66c55', // Token, i.e. "BUSD"
+      56: '0x2d5c9167fdd5c068c8fcb8992e6af639b42fbf70', // Token, i.e. "BUSD"
     },
     name: 'Merge Farming',
     symbol: 'MERGE-BNB LP',

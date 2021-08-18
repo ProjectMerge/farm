@@ -15,7 +15,7 @@ const TopBar: React.FC<TopBarProps> = ({ onPresentMobileMenu }) => {
   return (
     <StyledTopBar>
       <div style={{ backgroundColor: 'black', color: 'white', textAlign: 'center', padding: '3px', marginBottom: '10px' }}>
-**Testnet** Project Merge Farming on BSC **Testnet**</div>
+Project Merge Farming on BSC</div>
       <Container size="lg">
         <StyledTopBarInner>
           <StyledLogoWrapper>
