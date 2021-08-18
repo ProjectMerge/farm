@@ -462,7 +462,7 @@ export const CHAIN_ID = 56
 
 export const contractAddresses = {
   sushi: {
-    56: '0x2d5c9167fdd5c068c8fcb8992e6af639b42fbf70',
+    56: '0x2D5c9167fDd5c068c8fcB8992e6Af639b42FBf70',
   },
   masterChef: {
     56: '0x5169FD709827F766080ac38d20624Ff705AFDD29',
@@ -484,7 +484,7 @@ export const supportedPools = [
       56: '0xc669f6f4305dc0959cd136ec2a4e0f68797f3b1a', // LP Token Address
     },
     tokenAddresses: {
-      56: '0x2d5c9167fdd5c068c8fcb8992e6af639b42fbf70', // Token, i.e. "BUSD"
+      56: '0x2D5c9167fDd5c068c8fcB8992e6Af639b42FBf70', // Token, i.e. "BUSD"
     },
     name: 'Merge Farming',
     symbol: 'MERGE-BNB LP',
