@@ -468,7 +468,7 @@ export const contractAddresses = {
     56: '0x5169FD709827F766080ac38d20624Ff705AFDD29',
   },
   weth: {
-    56: '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
+    56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
   },
   xSushi: {
     56: '0x8798249c2e607446efb7ad49ec89dd1865ff4272' // NOTE: Not in use
