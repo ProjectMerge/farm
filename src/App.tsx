@@ -51,7 +51,7 @@ const Providers: React.FC = ({ children }) => {
       <UseWalletProvider
         chainId={56}
         connectors={{
-          walletconnect: { rpcUrl: 'https://bsc-dataseed1.defibit.io/' },
+          walletconnect: { rpcUrl: 'https://bsc-dataseed.binance.org/' },
         }}
       >
         <SushiProvider>

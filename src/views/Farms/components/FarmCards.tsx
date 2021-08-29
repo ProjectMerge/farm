@@ -30,18 +30,21 @@ const FarmCards: React.FC = () => {
   const stakedValue = useAllStakedValue()
 
   const sushiIndex = farms.findIndex(
-    ({ tokenSymbol }) => tokenSymbol === 'SUSHI',
+    ({ tokenSymbol }) => tokenSymbol === 'MERGE',
   )
 
-  console.log(stakedValue);
+  //console.log(stakedValue);
+
 
   const sushiPrice =
     sushiIndex >= 0 && stakedValue[sushiIndex]
       ? stakedValue[sushiIndex].tokenPriceInWeth
       : new BigNumber(0)
 
+  //console.log("My Merge value", sushiIndex);
+
   const BLOCKS_PER_YEAR = new BigNumber(2336000)
-  const SUSHI_PER_BLOCK = new BigNumber(100)
+  const SUSHI_PER_BLOCK = new BigNumber(0.022)
 
   const rows = farms.reduce<FarmWithStakedValue[][]>(
     (farmRows, farm, i) => {
